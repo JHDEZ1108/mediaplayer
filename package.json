@@ -1,0 +1,15 @@
+{
+  "name": "js-profesional",
+  "version": "1.0.0",
+  "description": "Professional JS course",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "Josué Hernández",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
