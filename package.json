@@ -4,12 +4,19 @@
   "description": "Professional JS course",
   "main": "index.js",
   "scripts": {
-    "start": "live-server"
+    "start": "parcel index.html"
   },
   "keywords": [],
   "author": "Josué Hernández",
   "license": "MIT",
   "devDependencies": {
-    "live-server": "^1.2.2"
-  }
+    "live-server": "^1.2.2",
+    "parcel": "^2.6.2"
+  },
+  "dependencies": {
+    "@parcel/service-worker": "^2.6.2"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
 }
